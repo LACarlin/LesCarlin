@@ -1,0 +1,76 @@
+body{
+    background-color: #F9F7F5;
+    /* background-color: #F0F4F5; */
+    color: #204051;
+    font-family: quicksand, sans-serif;
+    padding-top: 7rem;
+}
+
+nav {
+    background-color: #84a9ac !important;
+    font-family: Lora, serif;
+}
+
+.navbar-toggler-icon {
+
+    color: #3b6978;
+}
+
+.card {
+    border: none;
+    background-color: #F9F7F5;
+}
+
+.main {
+    font-size: 1.2rem;
+    font-weight: semi-bold;
+    margin-left: 10rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    margin-right: 10rem;
+}
+
+.copyright {
+    opacity: 60%;
+}
+
+.btn {
+    background-color: #84a9ac;
+}
+
+a {
+    color: #3b6978;
+}
+
+ul {
+    list-style-type: none;
+}
+
+hr {
+    width: 40%;
+    text-align: flex-start;
+    margin-left: 0;
+    color: #204051;
+}
+
+h1 {
+    font-family: Lora, serif;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: end;
+    margin-right: 5%;
+    font-family: Lora, serif;
+    font-weight: semi-bold;
+}
+
+h5 {
+    font-family: Lora, serif;
+    font-weight: semi-bold;  
+}
+
+label {
+    font-weight: semi-bold;
+}
+
