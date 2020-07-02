@@ -13,12 +13,18 @@ nav {
 
 .navbar-toggler-icon {
 
-    color: #3b6978;
+    color: #204051;
 }
 
 .card {
     border: none;
     background-color: #F9F7F5;
+    
+}
+
+.heading-card {
+    text-align: end;
+    margin-right: 5%;
 }
 
 .main {
@@ -39,7 +45,11 @@ nav {
 }
 
 a {
-    color: #3b6978;
+    color: #204051;
+}
+
+a:hover {
+    color: #3b6978
 }
 
 ul {
@@ -47,10 +57,12 @@ ul {
 }
 
 hr {
-    width: 40%;
+    width: 500px;
+    height: 2px;
     text-align: flex-start;
     margin-left: 0;
-    color: #204051;
+    background-color: #84a9ac;
+    border-style: none;
 }
 
 h1 {
