@@ -28,7 +28,7 @@ nav {
 }
 
 .main {
-    font-weight: semi-bold;
+    font-weight: 500;
     font-size: 1.1rem;
     margin: 4rem, 6rem, 3rem;
 }
@@ -39,6 +39,10 @@ nav {
 
 .btn {
     background-color: #84a9ac;
+}
+
+.home-txt {
+    font-size: 1.3rem;
 }
 
 p.contact-info {
@@ -52,6 +56,16 @@ a {
 a:hover {
     color: #3b6978;
     text-decoration: none!important;
+}
+
+.footer-img1 {
+    width: 33%;
+    height: 33%;
+}
+
+.footer-img2 {
+    width: 25%;
+    height: 25%;
 }
 
 ul {
