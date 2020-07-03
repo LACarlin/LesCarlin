@@ -1,53 +1,5 @@
-body{
-    background-color: #F9F7F5;
-    /* background-color: #F0F4F5; */
-    color: #204051;
-    font-family: quicksand, sans-serif;
-    padding-top: 7rem;
-}
 
-nav {
-    background-color: #84a9ac !important;
-    font-family: Lora, serif;
-}
-
-.navbar-toggler-icon {
-
-    color: #204051;
-}
-
-.card {
-    border: none;
-    background-color: #F9F7F5;
-    
-}
-
-.heading-card {
-    text-align: end;
-    margin-right: 5%;
-}
-
-.main {
-    font-weight: 500;
-    font-size: 1.1rem;
-    margin: 4rem, 6rem, 3rem;
-}
-
-.copyright {
-    opacity: 60%;
-}
-
-.btn {
-    background-color: #84a9ac;
-}
-
-.home-txt {
-    font-size: 1.3rem;
-}
-
-p.contact-info {
-    font-size: 1.3rem;
-}
+/* tags */
 
 a {
     color: #204051;
@@ -58,27 +10,12 @@ a:hover {
     text-decoration: none!important;
 }
 
-.footer-img1 {
-    width: 33%;
-    height: 33%;
-}
-
-.footer-img2 {
-    width: 25%;
-    height: 25%;
-}
-
-ul {
-    list-style-type: none;
-}
-
-hr {
-    width: 500px;
-    height: 2px;
-    text-align: flex-start;
-    margin-left: 0;
-    background-color: #84a9ac;
-    border-style: none;
+body{
+    background-color: #F9F7F5;
+    /* background-color: #F0F4F5; */
+    color: #204051;
+    font-family: quicksand, sans-serif;
+    padding-top: 7rem;
 }
 
 h1 {
@@ -99,10 +36,81 @@ h5 {
     font-weight: semi-bold;  
 }
 
+hr {
+    width: 500px;
+    height: 2px;
+    text-align: flex-start;
+    margin-left: 0;
+    background-color: #84a9ac;
+    border-style: none;
+}
+
 label {
     font-weight: semi-bold;
     font-size: 1.3rem;
 }
+
+nav {
+    background-color: #84a9ac !important;
+    font-family: Lora, serif;
+}
+
+p.contact-info {
+    font-size: 1.3rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* classes */
+
+.btn {
+    background-color: #84a9ac;
+}
+
+.card {
+    border: none;
+    background-color: #F9F7F5;
+    
+}
+
+.copyright {
+    opacity: 60%;
+}
+
+.footer-img1 {
+    width: 33%;
+    height: 33%;
+}
+
+.footer-img2 {
+    width: 25%;
+    height: 25%;
+}
+
+.heading-card {
+    text-align: end;
+    margin-right: 5%;
+}
+
+.home-txt {
+    font-size: 1.3rem;
+}
+
+.main {
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin: 4rem, 6rem, 3rem;
+}
+
+.navbar-toggler-icon {
+
+    color: #204051;
+}
+
+
+
 /* 
 @media only screen and (min-width: 768px) {
     .main {
