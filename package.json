@@ -1,0 +1,22 @@
+{
+  "name": "lescarlin2",
+  "version": "1.0.0",
+  "description": "Website for Les Carlin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LACarlin/LesCarlin.git"
+  },
+  "author": "Linzi Carlin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LACarlin/LesCarlin/issues"
+  },
+  "homepage": "https://github.com/LACarlin/LesCarlin#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
