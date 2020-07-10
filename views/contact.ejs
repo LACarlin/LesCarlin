@@ -1,0 +1,44 @@
+<%- include("partials/header"); %>
+
+<section class="container-fluid main m-4">
+  <div>
+
+  <p class="contact-info"><strong>Phone:</strong> 01482 473966</p>
+  <p class="contact-info"><strong>Email:</strong> clients@carlin.karoo.co.uk</p>
+</div>
+
+  <div class="row pt-3">
+    <div class="container-fluid col-sm-10 col-md-8 col-lg-6 text-left">
+      <h2 class="py-3">Contact me</h2>
+<form  action="/contact" method="post" enctype="multipart/form-data">
+
+   <div class="form-group">
+  <label for="firstName">First name</label>
+  <input class="form-control" type="text" name="firstName">
+  </div>
+
+  <div class="form-group">
+  <label for="lastName">Last name</label>
+  <input  class="form-control" type="text" name="lastName">
+  </div>
+
+  <div class="form-group">
+  <label for="email">Email</label>
+  <input class="form-control" type="email" name="email">
+  </div>
+
+  <div class="form-group">
+  <label for="message">Your message</label>
+  <textarea class="form-control" name="message" id="" cols="auto" rows="5" placeholder="Your message..."></textarea>
+  </div>
+
+  <div class="form-group pt-4">
+  <button class="btn btn-lg btn-outline-dark form-control" type="submit">Submit</button>
+  </div>
+
+</form>
+</div>
+</div>
+</section>
+
+<%- include("partials/footer"); %>
