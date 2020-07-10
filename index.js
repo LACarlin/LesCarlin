@@ -1,31 +1,38 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-// const ejs = require("ejs");
-const nodemailer = require("nodemailer");
+const ejs = require("ejs");
+// const nodemailer = require("nodemailer");
 
 const app = express();
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-// app.set("view engine", "ejs");
+app.set("view engine", "ejs");
 
 app.get("/", function(req, res){
-    res.sendFile(__dirname + "/views/home.html")
+    res.render("home");
 });
 
 app.get("/about", function(req, res){
-    res.sendFile(__dirname + "/views/about.html")
+    res.render("about");
 });
 
 app.get("/contact", function(req, res){
-    res.sendFile(__dirname + "/views/contact.html")
+    res.render("contact");
 });
 
 app.post("/contact", function(req, res){
+    const client = {
+        fName: req.body.firstName,
+        lName: req.body.lastName,
+        email: req.body.email,
+        message: req.body.message
+    };
 
+    console.log(client.fName);
 });
 
 app.listen(3000, function(){
-    console.log("server started on port 3000")
+    console.log("server started on port 3000");
 });
