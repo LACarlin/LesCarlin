@@ -6,6 +6,7 @@ const ejs = require("ejs");
 const app = express();
 
 app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.json());
 app.use(express.static("public"));
 
 app.set("view engine", "ejs");
@@ -31,6 +32,7 @@ app.post("/contact", function(req, res){
     };
 
     console.log(client.fName);
+
 });
 
 app.listen(3000, function(){
