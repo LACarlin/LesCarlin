@@ -1,7 +1,8 @@
+require("dotenv").config();
 const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
-// const nodemailer = require("nodemailer");
+const nodemailer = require("nodemailer");
 
 const app = express();
 
@@ -31,7 +32,9 @@ app.post("/contact", function(req, res){
         message: req.body.message
     };
 
-    console.log(client.fName);
+    //to use env variable = process.env.VARIABLENAME
+
+    console.log(client);
 
 });
 
